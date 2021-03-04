@@ -18,7 +18,6 @@ namespace Blog_posts.Models
         public List<Comment> comments;
         public string Name;
     }
-
     public class BlogPostsDb
     {
         private readonly string _connectionString;
